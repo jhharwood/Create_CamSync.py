@@ -1,0 +1,22 @@
+#-------------------------------------------------------------------------------
+# Name:        Create_CamSync.py
+#
+# Purpose:      This script is to be run in the DC_* camera folder created for the RCD30. This script will create
+#               a CameraSync_%s_0.dat and a CameraSync_%s_R.dat.  The first file will be used when running
+#               CZMIL_Image_Index. CZMIL_Image_Index creates it's own CameraSync_%s_T.dat file, which is the same
+#               as the *_R.dat file but just a name change.  The point here is the files are the same but chartsPic
+#               will recognize the files differently and apply the appropriate logic when using chartsPic in pfm3D Edit.
+#
+# Requirements:  Python 2.7 (standard library); pyproj, numpy, pandas
+#
+# Author:      J. Heath Harwood;
+#
+# Created:     10/20/2016
+# Copyright:   (c) USACE 2016
+# Licence:     Public
+#
+# Change Log:
+#
+#-------------------------------------------------------------------------------
+
+To run this file you have to have Pandas installed on the machine running the file.  
